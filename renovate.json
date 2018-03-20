@@ -2,6 +2,12 @@
   "extends": [
     "config:base"
   ],
+  "ignoreDeps": [
+    "angular",
+    "angular-mocks",
+    "angular-1.5",
+    "angular-mocks-1.5"
+  ],
   "ignorePaths": [
     "**/integration/**/*",
     "**/example*/**/*",
