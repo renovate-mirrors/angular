@@ -12,5 +12,12 @@
     "**/integration/**/*",
     "**/example*/**/*",
     "**/*test*/**/*"
+  ],
+  "packageRules": [
+    {
+      "description": "Disable renovation of all packages published by this repo",
+      "extends": "monorepo:angular",
+      "enabled" false
+    }
   ]
 }
