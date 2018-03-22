@@ -13,6 +13,7 @@
     "**/example*/**/*",
     "**/*test*/**/*"
   ],
+  "pinVersions": false,
   "packageRules": [
     {
       "description": "Disable renovation of all packages published by this repo",
